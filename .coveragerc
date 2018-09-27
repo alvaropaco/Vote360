@@ -1,0 +1,3 @@
+[run]
+source = Vote360
+omit = Vote360/test*

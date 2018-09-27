@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{request.locale_name}}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <title>Vote360</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="Imparcial, disruptive, democratic vote system" />
+    <meta name="keywords" content="electoral, vote, democracy, Jair Bolsonaro, Ciro Gomes, Fernando Haddad, Geraldo Alckmin, Marina Silva, João Amoedo" />
+    <meta name="author" content="Alvaro Paçó" />
+    <link rel="stylesheet" type="text/css" href="{{request.static_url('Vote360:static/css/demo.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{request.static_url('Vote360:static/css/style4.css')}}" />
+		<script type="text/javascript" src="{{request.static_url('Vote360:static/js/modernizr.custom.86080.js')}}"></script>
+  </head>
+
+  <body id="page">
+    <ul class="cb-slideshow">
+        <li><span>Jair Bolsonaro</span><div><h3>Jair Bolsonaro</h3></div></li>
+        <li><span>Ciro Gomes</span><div><h3>Ciro Gomes</h3></div></li>
+        <li><span>Fernando Haddad</span><div><h3>Fernando Haddad</h3></div></li>
+        <li><span>Geraldo Alckmin</span><div><h3>Geraldo Alckmin</h3></div></li>
+        <li><span>Marina Silva</span><div><h3>Marina Silva</h3></div></li>
+        <li><span>João Amoedo</span><div><h3>João Amoedo</h3></div></li>
+    </ul>
+    <div class="container">
+      {% block content %}
+          <p>No content</p>
+      {% endblock content %}
+    </div>
+  </body>
+</html>
